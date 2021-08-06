@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: aqua;
+    background-color: rgb(133, 231, 231);
     font-family: 'roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -30,23 +30,24 @@ textarea{
     padding: 10px;
     margin: 0 0 20px;
     font-size: 16px;
-    color: rgb(78, 69, 69);
+    color: rgb(78, 77, 69);
 
 }
 
 .tag {
-    background-color: orange;
-    color: rgb(78, 69, 69);
+    background-color: rgb(247, 171, 9);
+    color: rgb(122, 100, 100);
     border-radius: 50px;
     padding: 10px 20px;
     margin: 0 5px 10px 0;
     font-size: 14px;
     display: inline-block;
     text-align: center;
+    
 
 
 }
 
 .tag.highlight {
-    background-color:palegoldenrod
+    background-color:rgb(252, 240, 107)
 }
